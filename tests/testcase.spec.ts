@@ -18,7 +18,7 @@ test.describe('TestCase', () => {
         const isbn = '9781449331818';
         const bookName = 'Learning JavaScript Design Patterns';
 
-        // Login via API to get token and userId
+        // Login via API to get userId and token
         const { userId, token } = await bookStoreApi.login(
             process.env.DEMOQA_USER!,
             process.env.DEMOQA_PASS!
