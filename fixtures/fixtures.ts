@@ -2,7 +2,7 @@ import { test as base } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 import { ProfilePage } from '../pages/ProfilePage';
 import { BooksPage } from '../pages/BooksPage';
-import { BookStoreApi } from '../pages/BookStoreApi';
+import { BookStoreApi } from '../api/BookStoreApi';
 
 type MyFixtures = {
   loginPage: LoginPage;
